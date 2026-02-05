@@ -1,8 +1,39 @@
+<!DOCTYPE html>
 <html>
-    <form>
-        name:<input type = "text" name ="name"> <br><br>
-        email:<input type ="email" name="email"> <br><br>
-        password:<input type="password" name ="password"><br><br>
-        phone:<input type ="text" name="phone"><br><br>
-        <input type="submit">
-    </form>
+<head>
+<title>Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{font-family:Arial;background:#f2f2f2;}
+.box{max-width:400px;margin:auto;background:white;padding:20px;margin-top:30px;border-radius:8px;}
+input{width:100%;padding:10px;margin:8px 0;}
+button{width:100%;padding:10px;background:green;color:white;border:none;}
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Registration Form</h2>
+
+<form action="https://formsubmit.co/test@example.com" method="POST">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="email" name="Email" placeholder="Your Gmail" required>
+
+<input type="tel" name="Phone" placeholder="Phone Number" required>
+
+<input type="hidden" name="_captcha" value="false">
+
+<button type="submit">Register</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
